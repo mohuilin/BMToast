@@ -1,0 +1,16 @@
+PODS:
+  - BMToast (1.0.0)
+
+DEPENDENCIES:
+  - BMToast (from `../BMToast.podspec`)
+
+EXTERNAL SOURCES:
+  BMToast:
+    :path: "../BMToast.podspec"
+
+SPEC CHECKSUMS:
+  BMToast: 7aab98448314a410faf1beb42ea7d2d72f312609
+
+PODFILE CHECKSUM: 7fa70203c257fd8a23b862c9eb88ac6a6e2d73aa
+
+COCOAPODS: 1.5.3

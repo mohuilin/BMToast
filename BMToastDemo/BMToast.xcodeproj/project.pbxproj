@@ -7,28 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28964354F90A4D470C36E06D /* Pods_BMToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C3DACF1A1E3DA6CA5923B3 /* Pods_BMToast.framework */; };
 		8D3BD87C2154CF32001072A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD87B2154CF32001072A8 /* AppDelegate.m */; };
 		8D3BD87F2154CF32001072A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD87E2154CF32001072A8 /* ViewController.m */; };
 		8D3BD8822154CF32001072A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3BD8802154CF32001072A8 /* Main.storyboard */; };
 		8D3BD8842154CF34001072A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3BD8832154CF34001072A8 /* Assets.xcassets */; };
 		8D3BD8872154CF34001072A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3BD8852154CF34001072A8 /* LaunchScreen.storyboard */; };
 		8D3BD88A2154CF34001072A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD8892154CF34001072A8 /* main.m */; };
-		8D3BD8932154CF77001072A8 /* BMToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD8922154CF77001072A8 /* BMToast.m */; };
-		8D3BD8962154CF8E001072A8 /* BMViewToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD8952154CF8E001072A8 /* BMViewToast.m */; };
-		8D3BD8992154CF9C001072A8 /* BMWindowToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD8982154CF9C001072A8 /* BMWindowToast.m */; };
-		8D3BD89C2154D28B001072A8 /* BMToastMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD89B2154D28B001072A8 /* BMToastMaskView.m */; };
-		8D3BD89F2154D2F5001072A8 /* BMToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD89E2154D2F5001072A8 /* BMToastConfig.m */; };
-		8D3BD8A22154D639001072A8 /* UIViewController+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD8A12154D639001072A8 /* UIViewController+Toast.m */; };
-		8D3BD8A52154D88B001072A8 /* BMToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD8A42154D88B001072A8 /* BMToastView.m */; };
-		8D3BD8A82154DC9E001072A8 /* UIView+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD8A72154DC9E001072A8 /* UIView+Add.m */; };
-		8D3BD8AC2154DDE3001072A8 /* ic_warning_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D3BD8AA2154DDE3001072A8 /* ic_warning_white@2x.png */; };
-		8D3BD8AD2154DDE3001072A8 /* ic_warning_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D3BD8AB2154DDE3001072A8 /* ic_warning_white@3x.png */; };
-		8D3BD8B02154E3B5001072A8 /* toast_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D3BD8AE2154E3B5001072A8 /* toast_success@2x.png */; };
-		8D3BD8B12154E3B5001072A8 /* toast_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D3BD8AF2154E3B5001072A8 /* toast_success@3x.png */; };
-		8D3BD8B72154EF5A001072A8 /* UIView+BMToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD8B62154EF5A001072A8 /* UIView+BMToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08C3DACF1A1E3DA6CA5923B3 /* Pods_BMToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3BD8772154CF32001072A8 /* BMToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3BD87A2154CF32001072A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D3BD87B2154CF32001072A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,28 +28,8 @@
 		8D3BD8862154CF34001072A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D3BD8882154CF34001072A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D3BD8892154CF34001072A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8D3BD8912154CF77001072A8 /* BMToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMToast.h; sourceTree = "<group>"; };
-		8D3BD8922154CF77001072A8 /* BMToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMToast.m; sourceTree = "<group>"; };
-		8D3BD8942154CF8E001072A8 /* BMViewToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMViewToast.h; sourceTree = "<group>"; };
-		8D3BD8952154CF8E001072A8 /* BMViewToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMViewToast.m; sourceTree = "<group>"; };
-		8D3BD8972154CF9C001072A8 /* BMWindowToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMWindowToast.h; sourceTree = "<group>"; };
-		8D3BD8982154CF9C001072A8 /* BMWindowToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMWindowToast.m; sourceTree = "<group>"; };
-		8D3BD89A2154D28B001072A8 /* BMToastMaskView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMToastMaskView.h; sourceTree = "<group>"; };
-		8D3BD89B2154D28B001072A8 /* BMToastMaskView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMToastMaskView.m; sourceTree = "<group>"; };
-		8D3BD89D2154D2F5001072A8 /* BMToastConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMToastConfig.h; sourceTree = "<group>"; };
-		8D3BD89E2154D2F5001072A8 /* BMToastConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMToastConfig.m; sourceTree = "<group>"; };
-		8D3BD8A02154D639001072A8 /* UIViewController+Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Toast.h"; sourceTree = "<group>"; };
-		8D3BD8A12154D639001072A8 /* UIViewController+Toast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Toast.m"; sourceTree = "<group>"; };
-		8D3BD8A32154D88B001072A8 /* BMToastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMToastView.h; sourceTree = "<group>"; };
-		8D3BD8A42154D88B001072A8 /* BMToastView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMToastView.m; sourceTree = "<group>"; };
-		8D3BD8A62154DC9E001072A8 /* UIView+Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Add.h"; sourceTree = "<group>"; };
-		8D3BD8A72154DC9E001072A8 /* UIView+Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Add.m"; sourceTree = "<group>"; };
-		8D3BD8AA2154DDE3001072A8 /* ic_warning_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_warning_white@2x.png"; sourceTree = "<group>"; };
-		8D3BD8AB2154DDE3001072A8 /* ic_warning_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_warning_white@3x.png"; sourceTree = "<group>"; };
-		8D3BD8AE2154E3B5001072A8 /* toast_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_success@2x.png"; sourceTree = "<group>"; };
-		8D3BD8AF2154E3B5001072A8 /* toast_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_success@3x.png"; sourceTree = "<group>"; };
-		8D3BD8B52154EF5A001072A8 /* UIView+BMToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+BMToast.h"; sourceTree = "<group>"; };
-		8D3BD8B62154EF5A001072A8 /* UIView+BMToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+BMToast.m"; sourceTree = "<group>"; };
+		B2518115E7D9CEDE6EFDD17E /* Pods-BMToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMToast.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMToast/Pods-BMToast.release.xcconfig"; sourceTree = "<group>"; };
+		E857EEFB1A85A6FF3DC28CBC /* Pods-BMToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMToast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMToast/Pods-BMToast.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28964354F90A4D470C36E06D /* Pods_BMToast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		799A6A0E3B638C9B2657BE14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E857EEFB1A85A6FF3DC28CBC /* Pods-BMToast.debug.xcconfig */,
+				B2518115E7D9CEDE6EFDD17E /* Pods-BMToast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8D3BD86E2154CF32001072A8 = {
 			isa = PBXGroup;
 			children = (
 				8D3BD8792154CF32001072A8 /* BMToast */,
 				8D3BD8782154CF32001072A8 /* Products */,
+				799A6A0E3B638C9B2657BE14 /* Pods */,
+				B9A106DB83737FC79996BB7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,8 +74,6 @@
 		8D3BD8792154CF32001072A8 /* BMToast */ = {
 			isa = PBXGroup;
 			children = (
-				8D3BD8A92154DDBA001072A8 /* Resource */,
-				8D3BD8902154CF3B001072A8 /* Classes */,
 				8D3BD87A2154CF32001072A8 /* AppDelegate.h */,
 				8D3BD87B2154CF32001072A8 /* AppDelegate.m */,
 				8D3BD87D2154CF32001072A8 /* ViewController.h */,
@@ -108,40 +87,12 @@
 			path = BMToast;
 			sourceTree = "<group>";
 		};
-		8D3BD8902154CF3B001072A8 /* Classes */ = {
+		B9A106DB83737FC79996BB7A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D3BD8912154CF77001072A8 /* BMToast.h */,
-				8D3BD8922154CF77001072A8 /* BMToast.m */,
-				8D3BD8942154CF8E001072A8 /* BMViewToast.h */,
-				8D3BD8952154CF8E001072A8 /* BMViewToast.m */,
-				8D3BD8972154CF9C001072A8 /* BMWindowToast.h */,
-				8D3BD8982154CF9C001072A8 /* BMWindowToast.m */,
-				8D3BD89D2154D2F5001072A8 /* BMToastConfig.h */,
-				8D3BD89E2154D2F5001072A8 /* BMToastConfig.m */,
-				8D3BD8A02154D639001072A8 /* UIViewController+Toast.h */,
-				8D3BD8A12154D639001072A8 /* UIViewController+Toast.m */,
-				8D3BD89A2154D28B001072A8 /* BMToastMaskView.h */,
-				8D3BD89B2154D28B001072A8 /* BMToastMaskView.m */,
-				8D3BD8A32154D88B001072A8 /* BMToastView.h */,
-				8D3BD8A42154D88B001072A8 /* BMToastView.m */,
-				8D3BD8A62154DC9E001072A8 /* UIView+Add.h */,
-				8D3BD8A72154DC9E001072A8 /* UIView+Add.m */,
-				8D3BD8B52154EF5A001072A8 /* UIView+BMToast.h */,
-				8D3BD8B62154EF5A001072A8 /* UIView+BMToast.m */,
+				08C3DACF1A1E3DA6CA5923B3 /* Pods_BMToast.framework */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		8D3BD8A92154DDBA001072A8 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				8D3BD8AE2154E3B5001072A8 /* toast_success@2x.png */,
-				8D3BD8AF2154E3B5001072A8 /* toast_success@3x.png */,
-				8D3BD8AA2154DDE3001072A8 /* ic_warning_white@2x.png */,
-				8D3BD8AB2154DDE3001072A8 /* ic_warning_white@3x.png */,
-			);
-			path = Resource;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D3BD88D2154CF34001072A8 /* Build configuration list for PBXNativeTarget "BMToast" */;
 			buildPhases = (
+				9F020118954AE6E05EA561F3 /* [CP] Check Pods Manifest.lock */,
 				8D3BD8732154CF32001072A8 /* Sources */,
 				8D3BD8742154CF32001072A8 /* Frameworks */,
 				8D3BD8752154CF32001072A8 /* Resources */,
+				46F04C2755E769FBC4939FFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,17 +154,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3BD8AD2154DDE3001072A8 /* ic_warning_white@3x.png in Resources */,
-				8D3BD8B12154E3B5001072A8 /* toast_success@3x.png in Resources */,
 				8D3BD8872154CF34001072A8 /* LaunchScreen.storyboard in Resources */,
-				8D3BD8B02154E3B5001072A8 /* toast_success@2x.png in Resources */,
-				8D3BD8AC2154DDE3001072A8 /* ic_warning_white@2x.png in Resources */,
 				8D3BD8842154CF34001072A8 /* Assets.xcassets in Resources */,
 				8D3BD8822154CF32001072A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46F04C2755E769FBC4939FFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BMToast/Pods-BMToast-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BMToast/BMToast.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMToast.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BMToast/Pods-BMToast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F020118954AE6E05EA561F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BMToast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D3BD8732154CF32001072A8 /* Sources */ = {
@@ -220,15 +208,6 @@
 			files = (
 				8D3BD87F2154CF32001072A8 /* ViewController.m in Sources */,
 				8D3BD88A2154CF34001072A8 /* main.m in Sources */,
-				8D3BD8A22154D639001072A8 /* UIViewController+Toast.m in Sources */,
-				8D3BD8A82154DC9E001072A8 /* UIView+Add.m in Sources */,
-				8D3BD89F2154D2F5001072A8 /* BMToastConfig.m in Sources */,
-				8D3BD8992154CF9C001072A8 /* BMWindowToast.m in Sources */,
-				8D3BD8962154CF8E001072A8 /* BMViewToast.m in Sources */,
-				8D3BD89C2154D28B001072A8 /* BMToastMaskView.m in Sources */,
-				8D3BD8A52154D88B001072A8 /* BMToastView.m in Sources */,
-				8D3BD8B72154EF5A001072A8 /* UIView+BMToast.m in Sources */,
-				8D3BD8932154CF77001072A8 /* BMToast.m in Sources */,
 				8D3BD87C2154CF32001072A8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +348,7 @@
 		};
 		8D3BD88E2154CF34001072A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E857EEFB1A85A6FF3DC28CBC /* Pods-BMToast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -386,6 +366,7 @@
 		};
 		8D3BD88F2154CF34001072A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2518115E7D9CEDE6EFDD17E /* Pods-BMToast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

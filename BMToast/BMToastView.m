@@ -8,6 +8,7 @@
 
 #import "BMToastView.h"
 #import "UIView+Add.h"
+#import "NSBundle+BMToast.h"
 
 @interface BMToastView ()
 
@@ -78,7 +79,7 @@
     toastImageView.height = 36;
     toastImageView.top = 30;
     toastImageView.centerX = self.width / 2;
-    toastImageView.image = [UIImage imageNamed:@"toast_success"];
+    toastImageView.image = [UIImage imageWithContentsOfFile:[[NSBundle bm_toastBundle] pathForResource:@"toast_success@2x" ofType:@"png"]];// [NSBundle bm_toastBundle] [UIImage imageNamed:@"toast_success"];
     [self addSubview:toastImageView];
     
     self.toastImageView = toastImageView;
@@ -91,7 +92,7 @@
     toastImageView.height = 42;
     toastImageView.top = 27;
     toastImageView.centerX = self.width / 2;
-    toastImageView.image = [UIImage imageNamed:@"ic_warning_white"];
+    toastImageView.image = [UIImage imageWithContentsOfFile:[[NSBundle bm_toastBundle] pathForResource:@"ic_warning_white@2x" ofType:@"png"]]; // [UIImage imageNamed:@"ic_warning_white"];
     [self addSubview:toastImageView];
     
     self.toastImageView = toastImageView;
