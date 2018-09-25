@@ -12,6 +12,7 @@
 
 #import "BMToast.h"
 #import "BMToastConfig.h"
+#import "BMToastKit.h"
 #import "BMToastMaskView.h"
 #import "BMToastView.h"
 #import "BMViewToast.h"
