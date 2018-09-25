@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "BMToast"
-    s.version          = "1.0.2"
+    s.version          = "1.0.3"
     s.summary          = "BMToast"
     s.license          = 'MIT'
     s.homepage         = "https://github.com/mohuilin/BMToast"
