@@ -168,17 +168,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BMToast/Pods-BMToast-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BMToast/BMToast.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BMToast/Pods-BMToast-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMToast.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BMToast/Pods-BMToast-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BMToast/Pods-BMToast-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BMToast/Pods-BMToast-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9F020118954AE6E05EA561F3 /* [CP] Check Pods Manifest.lock */ = {

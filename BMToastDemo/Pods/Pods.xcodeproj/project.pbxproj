@@ -7,287 +7,285 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F070C45790B01A79898ECA17053BD81 /* BMWindowToast.h in Headers */ = {isa = PBXBuildFile; fileRef = D5448FB40E96EAEF8643018748F61697 /* BMWindowToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23604E8F768CF8368FFBB03B4A55A9C1 /* Pods-BMToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C3561BF1910AE7D7C3F3CA6FC0311E /* Pods-BMToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C244CBD4A21141B0ED9C8C785105D1E /* BMToast.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 084F1C1444A38CCB467734B2BFBC7CD1 /* BMToast.bundle */; };
-		2C3C4408B35EAFF73122A5E7D6D31C8E /* BMToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 022853EAD670563C76A8026562F5BDEB /* BMToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C70AC0EAEA61381AFB2390E046EDF2C /* NSBundle+BMToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E647FDE47F55DD3CD22316FF7CF577A /* NSBundle+BMToast.m */; };
-		2EC69BA415B80E11AA51100D3A0F2B09 /* BMWindowToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7724899B8CC77E51DE67F2FCB9F805 /* BMWindowToast.m */; };
-		327A7035527640648885B3D743EE86A7 /* BMToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3657C4994A7A17D847AB954221DBBF /* BMToastConfig.m */; };
-		381E547261EBA69975DE4CAC2A9843AC /* NSBundle+BMToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA1D31DAF54F370752A933A49D66D17 /* NSBundle+BMToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40752A521306E2C51225650FD1646A29 /* Pods-BMToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FE6E0256A5EA93A102093064B4078C /* Pods-BMToast-dummy.m */; };
-		6618CBEFA904C71D6E79F81A488C9C4A /* BMViewToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEA918446AC37E442714218D1B8D050 /* BMViewToast.m */; };
-		7A9612C94754231D5A8C5C266B4831B3 /* UIView+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = D41383310EC003C413784F072FF3CB8D /* UIView+Add.m */; };
-		7B89354AB0C789859DC628FDA91F83DE /* BMToast.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B16928A6E4F66D00A5D6CA94E29F9A /* BMToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C9C64BBEB5816A7D0F92398905CCF9D /* BMToast.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E0B376CFF516600A3BC1DD762CBD29 /* BMToast.m */; };
-		80C8E0154993726A62011DA9F87B2267 /* BMToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2506180868AADC853261F624458262AB /* BMToast-dummy.m */; };
-		8497FC426C5399AC56A464EE02F3090F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		85DB1831CAECB724C4EF95F8D4D0AF6E /* BMToastMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4115BE56E8B5D05F0898FD2ACFF2FD5 /* BMToastMaskView.m */; };
-		97F3E7FDF38282EF4BF45E4445B24B63 /* UIView+BMToast.m in Sources */ = {isa = PBXBuildFile; fileRef = EF490DA16469E0A6236352885E557654 /* UIView+BMToast.m */; };
-		B3D0C33043EC044D1083668861410F3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B83690C2C0D1862E4BF786FF3EDF1E12 /* UIViewController+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = BF67BA5828EABB856BDBD46C0DA42ECA /* UIViewController+Toast.m */; };
-		BD8DFC86C129E7D85915CF960C854A00 /* BMToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 016A9DC2440E46358FC01844E66552E4 /* BMToastView.m */; };
-		C068A9B317EF30AD8A93D4BB4949CF27 /* BMToastMaskView.h in Headers */ = {isa = PBXBuildFile; fileRef = B063A95FBBC92D2ABA65E72E4EBC2FE0 /* BMToastMaskView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1265EFBFA388C9B7C7F8436B6DA6BDF /* BMViewToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A19E3334FF9A38E5BA59AB28450D97 /* BMViewToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5BDCCDB9B90D2464B709F63E02E2E9C /* BMToastKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F30AB096315243E4DB2276134067C5D5 /* BMToastKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C87E59B37626728600FC9BF430BE2E54 /* UIView+Add.h in Headers */ = {isa = PBXBuildFile; fileRef = F9DB0D2A1DD950D7111B8CE6A51AECCA /* UIView+Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2073CA1835A6F8C75BC6DB149005773 /* BMToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2A58A40ED413C7DFA163524AA5EA65 /* BMToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC4707F6D50C5B592C81E06A903A16F3 /* UIViewController+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FA709153BD143AFD6CC314FAAF5E05 /* UIViewController+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC8E3B8E48F64749EEF0FBA973397877 /* BMToastConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A68BDCDA12FB4C560F974D87A4150CCA /* BMToastConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0D22DAAC7D2B7FC1BC4224879A7E813 /* UIView+BMToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F6C9BF45EE34C4E573E9CE755B1D25 /* UIView+BMToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0573502AA430A2260CEAF11DC55E1BBF /* UIView+BMToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B8EB0CE104F0BCE4D6B4C1E9939239 /* UIView+BMToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F48F8F62603AC15DBCA6EBE1317E205 /* BMToastKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CDFAB4EDE3C5DB8DFC7D19DF13C556E /* BMToastKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		230734849DC11858BC9ECD3A77659846 /* BMToastConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C456303336DB88A45685D086175DEB40 /* BMToastConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C8FF036AC090872F2BD212A87C4CE36 /* UIView+Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0BD5220EE32139FB0688E3089FD4F6 /* UIView+Add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		337CD753953F5AC7ECD87A8A2EC463D9 /* BMToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 534BB246CAC5463DD4F3827D3E9723E5 /* BMToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3931ACBDA3E0EC3BD4A1276ED823C130 /* UIViewController+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = CE21AC8F6A77B44BE731D9B478E42986 /* UIViewController+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F8D906F29124FA404F72B35EA3BBD8D /* UIViewController+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A00005F57C74899D40EDAB9B6799D4 /* UIViewController+Toast.m */; };
+		42E82128A04D7DE24C0DACB5628F1E16 /* Pods-BMToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149C9CCF6F0F3D8A5E1F6D9BECCBEF2 /* Pods-BMToast-dummy.m */; };
+		5904A4F9FF8A9DC863E5A05D136CD4C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5F4EB5A6991C4AA6D058C0130410AD6F /* UIView+BMToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E4561A2AC7D777CAD745422B29629A /* UIView+BMToast.m */; };
+		7CEAE6D863CDEE1F899295CA01FC8557 /* BMToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8866531E49BCFEF4232F0D00E895A751 /* BMToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81FB5A22383F1D06333624738DC15966 /* BMWindowToast.h in Headers */ = {isa = PBXBuildFile; fileRef = A77AD48997C4E1564330B1D089479939 /* BMWindowToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C29D9EE15662233D2090A69CE1C8492 /* BMToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCF7955743AB9311CC1E55B490124E8 /* BMToastConfig.m */; };
+		8EC9E8002E9415EBC97566848CD188E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8FAD49870371A24EB7F7E354C7C0ACFB /* BMViewToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 267FC1FE5CCCF58A78D36F6CCDDBDD2D /* BMViewToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9397A3B846F7990F6494830AE1BEA1B2 /* BMToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C04DAFA6410562B047BB44CA9DE1428 /* BMToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93FE928F09558BB22E3D914A4983238A /* BMWindowToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3902E1E3ED6BB7CA20534B4A5CDC26FB /* BMWindowToast.m */; };
+		9786E8DA94077E08375B2080896A5439 /* BMToastMaskView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAA5014FB2F6E203A7C59B914156E52 /* BMToastMaskView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98B1F3E18F8D3431CA545BE01AA208B3 /* BMViewToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1ED46C4509ADDAC11CF2F212864EA1 /* BMViewToast.m */; };
+		98FA217025804FCE8812CBD4FC9050E9 /* BMToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D47E1943629758498541F839288E83 /* BMToastView.m */; };
+		BD992140B7F7868CF290FDD377FF2AE7 /* BMToast.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7FA6EBB2FCDE5319A7CA127126FBC57C /* BMToast.bundle */; };
+		C2643799289D455C39371EEE4C51716F /* BMToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7156F2A559C180994FE2D30977263 /* BMToast-dummy.m */; };
+		E380FF20229E892DE1526007DF32A4F2 /* BMToastMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F6946D32F47E1D02C3714A6609B346 /* BMToastMaskView.m */; };
+		EA69F5D43BFDDAB6BD2DA10B9887AD49 /* NSBundle+BMToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 92433AC73587BC24235C9369A2F317B8 /* NSBundle+BMToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EED08D40D71F985E9A50FA48A835C3B9 /* Pods-BMToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6650A914B26E42923758B71787070D3F /* Pods-BMToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F10A2F7F8ED06B69477C08FDFAD8D7D1 /* NSBundle+BMToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F47B7DDE8B6D43339B15D2225AAFD4 /* NSBundle+BMToast.m */; };
+		F483BE6B7CBA903A0935BB66C0F7144B /* UIView+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD0FB1561460AD2C1AFDB807991ED53 /* UIView+Add.m */; };
+		F57DC3047E94F017C5C390551E3ABBB4 /* BMToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B30B3DAA96B875739665E0576CC2A94 /* BMToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F69A2F1CB2171D12BA96BC809E229F84 /* PBXContainerItemProxy */ = {
+		0C8A36161A03005B9943A034C726834E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 177AD65EEC35AF1350B5F1393F73FD6D;
+			remoteGlobalIDString = 4843C0A3ADD2B78360D80B0903F6D22F;
 			remoteInfo = BMToast;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		016A9DC2440E46358FC01844E66552E4 /* BMToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMToastView.m; path = BMToast/BMToastView.m; sourceTree = "<group>"; };
-		022853EAD670563C76A8026562F5BDEB /* BMToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMToastView.h; path = BMToast/BMToastView.h; sourceTree = "<group>"; };
-		0334C484EE79318A2F93A3A8F77709AD /* BMToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMToast-prefix.pch"; sourceTree = "<group>"; };
-		052F3F96A2B11DDC8912690FC084098B /* Pods-BMToast-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BMToast-acknowledgements.markdown"; sourceTree = "<group>"; };
-		084F1C1444A38CCB467734B2BFBC7CD1 /* BMToast.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BMToast.bundle; path = BMToast/BMToast.bundle; sourceTree = "<group>"; };
-		0AA1D31DAF54F370752A933A49D66D17 /* NSBundle+BMToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+BMToast.h"; path = "BMToast/NSBundle+BMToast.h"; sourceTree = "<group>"; };
-		12FE6E0256A5EA93A102093064B4078C /* Pods-BMToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BMToast-dummy.m"; sourceTree = "<group>"; };
-		14B4B68EA5B5122E2DF5335A39D7F353 /* Pods-BMToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMToast.debug.xcconfig"; sourceTree = "<group>"; };
-		2506180868AADC853261F624458262AB /* BMToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BMToast-dummy.m"; sourceTree = "<group>"; };
-		35D778724D4324967A8B1EF91C7F144A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		371E9065C3DBBC236C6C4B8BE8F759A4 /* Pods_BMToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BMToast.framework; path = "Pods-BMToast.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A7724899B8CC77E51DE67F2FCB9F805 /* BMWindowToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMWindowToast.m; path = BMToast/BMWindowToast.m; sourceTree = "<group>"; };
-		3FFB8A4DFCD3F62ACF06316C315DD79F /* Pods-BMToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMToast.release.xcconfig"; sourceTree = "<group>"; };
-		49AFA8E425F79AEA172BAA09507DE71F /* Pods-BMToast-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BMToast-acknowledgements.plist"; sourceTree = "<group>"; };
-		4B2A58A40ED413C7DFA163524AA5EA65 /* BMToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMToast-umbrella.h"; sourceTree = "<group>"; };
-		52FA709153BD143AFD6CC314FAAF5E05 /* UIViewController+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Toast.h"; path = "BMToast/UIViewController+Toast.h"; sourceTree = "<group>"; };
-		58A19E3334FF9A38E5BA59AB28450D97 /* BMViewToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMViewToast.h; path = BMToast/BMViewToast.h; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5BB5040B0CBD0455274CD2D9470808C7 /* Pods-BMToast-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BMToast-frameworks.sh"; sourceTree = "<group>"; };
-		6FEA918446AC37E442714218D1B8D050 /* BMViewToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMViewToast.m; path = BMToast/BMViewToast.m; sourceTree = "<group>"; };
-		7D3657C4994A7A17D847AB954221DBBF /* BMToastConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMToastConfig.m; path = BMToast/BMToastConfig.m; sourceTree = "<group>"; };
-		86F6C9BF45EE34C4E573E9CE755B1D25 /* UIView+BMToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BMToast.h"; path = "BMToast/UIView+BMToast.h"; sourceTree = "<group>"; };
-		875DC45EB897B588BA36BBB4DCB6D9EB /* BMToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BMToast.framework; path = BMToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BA96720D9D9422C9937E08908B12B48 /* BMToast.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BMToast.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8C2FAE65152F386BA34D9B98239234C2 /* BMToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BMToast.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93C3561BF1910AE7D7C3F3CA6FC0311E /* Pods-BMToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BMToast-umbrella.h"; sourceTree = "<group>"; };
-		9D835FCCD567660DD1437D46A353744A /* Pods-BMToast-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BMToast-resources.sh"; sourceTree = "<group>"; };
-		9E647FDE47F55DD3CD22316FF7CF577A /* NSBundle+BMToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+BMToast.m"; path = "BMToast/NSBundle+BMToast.m"; sourceTree = "<group>"; };
-		A4115BE56E8B5D05F0898FD2ACFF2FD5 /* BMToastMaskView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMToastMaskView.m; path = BMToast/BMToastMaskView.m; sourceTree = "<group>"; };
-		A68BDCDA12FB4C560F974D87A4150CCA /* BMToastConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMToastConfig.h; path = BMToast/BMToastConfig.h; sourceTree = "<group>"; };
-		B063A95FBBC92D2ABA65E72E4EBC2FE0 /* BMToastMaskView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMToastMaskView.h; path = BMToast/BMToastMaskView.h; sourceTree = "<group>"; };
-		B9B16928A6E4F66D00A5D6CA94E29F9A /* BMToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMToast.h; path = BMToast/BMToast.h; sourceTree = "<group>"; };
-		BF67BA5828EABB856BDBD46C0DA42ECA /* UIViewController+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Toast.m"; path = "BMToast/UIViewController+Toast.m"; sourceTree = "<group>"; };
-		D41383310EC003C413784F072FF3CB8D /* UIView+Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Add.m"; path = "BMToast/UIView+Add.m"; sourceTree = "<group>"; };
-		D5448FB40E96EAEF8643018748F61697 /* BMWindowToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMWindowToast.h; path = BMToast/BMWindowToast.h; sourceTree = "<group>"; };
-		D5E0B376CFF516600A3BC1DD762CBD29 /* BMToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMToast.m; path = BMToast/BMToast.m; sourceTree = "<group>"; };
-		D7883F2CE84CCA79B4A6A5092D6E9CAB /* Pods-BMToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BMToast.modulemap"; sourceTree = "<group>"; };
-		DB6C8C560C62BBE8D81D43F307E4F087 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB94C8F5E8B478B37AE49D871213A0B0 /* BMToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BMToast.xcconfig; sourceTree = "<group>"; };
-		EF490DA16469E0A6236352885E557654 /* UIView+BMToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BMToast.m"; path = "BMToast/UIView+BMToast.m"; sourceTree = "<group>"; };
-		F30AB096315243E4DB2276134067C5D5 /* BMToastKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMToastKit.h; path = BMToast/BMToastKit.h; sourceTree = "<group>"; };
-		F9DB0D2A1DD950D7111B8CE6A51AECCA /* UIView+Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Add.h"; path = "BMToast/UIView+Add.h"; sourceTree = "<group>"; };
-		FF76DEF7453D239370A1CB62BD976DF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C04DAFA6410562B047BB44CA9DE1428 /* BMToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMToast-umbrella.h"; sourceTree = "<group>"; };
+		0CC8ADC77EE547DF0182172E21CA7DE4 /* BMToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BMToast.modulemap; sourceTree = "<group>"; };
+		1B1ED46C4509ADDAC11CF2F212864EA1 /* BMViewToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMViewToast.m; path = BMToast/BMViewToast.m; sourceTree = "<group>"; };
+		23EFF25975809A89A21E0064665E9200 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		24892937E2D796F932FB71AD20ED682F /* BMToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BMToast.framework; path = BMToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		267FC1FE5CCCF58A78D36F6CCDDBDD2D /* BMViewToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMViewToast.h; path = BMToast/BMViewToast.h; sourceTree = "<group>"; };
+		27F6946D32F47E1D02C3714A6609B346 /* BMToastMaskView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMToastMaskView.m; path = BMToast/BMToastMaskView.m; sourceTree = "<group>"; };
+		2C0BD5220EE32139FB0688E3089FD4F6 /* UIView+Add.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Add.h"; path = "BMToast/UIView+Add.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3902E1E3ED6BB7CA20534B4A5CDC26FB /* BMWindowToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMWindowToast.m; path = BMToast/BMWindowToast.m; sourceTree = "<group>"; };
+		4149C9CCF6F0F3D8A5E1F6D9BECCBEF2 /* Pods-BMToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BMToast-dummy.m"; sourceTree = "<group>"; };
+		4B30B3DAA96B875739665E0576CC2A94 /* BMToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMToast.m; path = BMToast/BMToast.m; sourceTree = "<group>"; };
+		4CDFAB4EDE3C5DB8DFC7D19DF13C556E /* BMToastKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMToastKit.h; path = BMToast/BMToastKit.h; sourceTree = "<group>"; };
+		4DAA5014FB2F6E203A7C59B914156E52 /* BMToastMaskView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMToastMaskView.h; path = BMToast/BMToastMaskView.h; sourceTree = "<group>"; };
+		534BB246CAC5463DD4F3827D3E9723E5 /* BMToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMToast.h; path = BMToast/BMToast.h; sourceTree = "<group>"; };
+		5ACCCC36FD2016757CE02248737D1740 /* Pods-BMToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BMToast.modulemap"; sourceTree = "<group>"; };
+		5DCF7955743AB9311CC1E55B490124E8 /* BMToastConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMToastConfig.m; path = BMToast/BMToastConfig.m; sourceTree = "<group>"; };
+		60A00005F57C74899D40EDAB9B6799D4 /* UIViewController+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Toast.m"; path = "BMToast/UIViewController+Toast.m"; sourceTree = "<group>"; };
+		61D47E1943629758498541F839288E83 /* BMToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BMToastView.m; path = BMToast/BMToastView.m; sourceTree = "<group>"; };
+		6650A914B26E42923758B71787070D3F /* Pods-BMToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BMToast-umbrella.h"; sourceTree = "<group>"; };
+		6FD0FB1561460AD2C1AFDB807991ED53 /* UIView+Add.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Add.m"; path = "BMToast/UIView+Add.m"; sourceTree = "<group>"; };
+		72E4561A2AC7D777CAD745422B29629A /* UIView+BMToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BMToast.m"; path = "BMToast/UIView+BMToast.m"; sourceTree = "<group>"; };
+		7845F7BD60D6637C714AD6E36EF8CB11 /* Pods-BMToast-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BMToast-frameworks.sh"; sourceTree = "<group>"; };
+		7FA6EBB2FCDE5319A7CA127126FBC57C /* BMToast.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BMToast.bundle; path = BMToast/BMToast.bundle; sourceTree = "<group>"; };
+		86F47B7DDE8B6D43339B15D2225AAFD4 /* NSBundle+BMToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+BMToast.m"; path = "BMToast/NSBundle+BMToast.m"; sourceTree = "<group>"; };
+		8866531E49BCFEF4232F0D00E895A751 /* BMToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMToastView.h; path = BMToast/BMToastView.h; sourceTree = "<group>"; };
+		89B8EB0CE104F0BCE4D6B4C1E9939239 /* UIView+BMToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BMToast.h"; path = "BMToast/UIView+BMToast.h"; sourceTree = "<group>"; };
+		92433AC73587BC24235C9369A2F317B8 /* NSBundle+BMToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+BMToast.h"; path = "BMToast/NSBundle+BMToast.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD7156F2A559C180994FE2D30977263 /* BMToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BMToast-dummy.m"; sourceTree = "<group>"; };
+		A34A0BDDAE73DB85330D82FE06F3D2B0 /* Pods-BMToast-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BMToast-acknowledgements.plist"; sourceTree = "<group>"; };
+		A77AD48997C4E1564330B1D089479939 /* BMWindowToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMWindowToast.h; path = BMToast/BMWindowToast.h; sourceTree = "<group>"; };
+		AA2B490BAF78EBCAF98D7C293073FF16 /* Pods-BMToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMToast.release.xcconfig"; sourceTree = "<group>"; };
+		AE3914192F6F5AAD687F1C03EB381201 /* Pods-BMToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BMToast-Info.plist"; sourceTree = "<group>"; };
+		B735C9224AB9E3ADBF3DF94868548565 /* Pods-BMToast-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BMToast-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD0E2E01BBB622388E36F2BCC56BD7BF /* Pods-BMToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMToast.debug.xcconfig"; sourceTree = "<group>"; };
+		C456303336DB88A45685D086175DEB40 /* BMToastConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMToastConfig.h; path = BMToast/BMToastConfig.h; sourceTree = "<group>"; };
+		C93725BF1B69F3B6A87FB329B6BC4445 /* BMToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BMToast.xcconfig; sourceTree = "<group>"; };
+		CE21AC8F6A77B44BE731D9B478E42986 /* UIViewController+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Toast.h"; path = "BMToast/UIViewController+Toast.h"; sourceTree = "<group>"; };
+		DA9015BF18638C9FF4EC998B8417EB39 /* BMToast.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BMToast.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E046B1F94C154D4F1CB062BE472BE78B /* BMToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMToast-prefix.pch"; sourceTree = "<group>"; };
+		F36E738EF6D7AF3B42DCD2F1403DD355 /* Pods_BMToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BMToast.framework; path = "Pods-BMToast.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA191EB95BDCFF90857190BCB0A1C2A /* BMToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BMToast-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46A04357B3753546B11EA88672F58B4C /* Frameworks */ = {
+		55FF9C7E009706ECCC55C1AA051D5306 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8497FC426C5399AC56A464EE02F3090F /* Foundation.framework in Frameworks */,
+				8EC9E8002E9415EBC97566848CD188E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53AA62083FF14C37E7EEF72D28F65F79 /* Frameworks */ = {
+		AB1119D0B139D785142365334B90BF35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3D0C33043EC044D1083668861410F3E /* Foundation.framework in Frameworks */,
+				5904A4F9FF8A9DC863E5A05D136CD4C2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		393EE0CDD0203C59F7359044E9B7399F /* Pods-BMToast */ = {
+		03C0EEA27B774F93E60FB86BB07CCD65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB6C8C560C62BBE8D81D43F307E4F087 /* Info.plist */,
-				D7883F2CE84CCA79B4A6A5092D6E9CAB /* Pods-BMToast.modulemap */,
-				052F3F96A2B11DDC8912690FC084098B /* Pods-BMToast-acknowledgements.markdown */,
-				49AFA8E425F79AEA172BAA09507DE71F /* Pods-BMToast-acknowledgements.plist */,
-				12FE6E0256A5EA93A102093064B4078C /* Pods-BMToast-dummy.m */,
-				5BB5040B0CBD0455274CD2D9470808C7 /* Pods-BMToast-frameworks.sh */,
-				9D835FCCD567660DD1437D46A353744A /* Pods-BMToast-resources.sh */,
-				93C3561BF1910AE7D7C3F3CA6FC0311E /* Pods-BMToast-umbrella.h */,
-				14B4B68EA5B5122E2DF5335A39D7F353 /* Pods-BMToast.debug.xcconfig */,
-				3FFB8A4DFCD3F62ACF06316C315DD79F /* Pods-BMToast.release.xcconfig */,
+				24892937E2D796F932FB71AD20ED682F /* BMToast.framework */,
+				F36E738EF6D7AF3B42DCD2F1403DD355 /* Pods_BMToast.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5754587E60F6F8FE9E46DA74DAABD9AE /* Pods-BMToast */ = {
+			isa = PBXGroup;
+			children = (
+				5ACCCC36FD2016757CE02248737D1740 /* Pods-BMToast.modulemap */,
+				B735C9224AB9E3ADBF3DF94868548565 /* Pods-BMToast-acknowledgements.markdown */,
+				A34A0BDDAE73DB85330D82FE06F3D2B0 /* Pods-BMToast-acknowledgements.plist */,
+				4149C9CCF6F0F3D8A5E1F6D9BECCBEF2 /* Pods-BMToast-dummy.m */,
+				7845F7BD60D6637C714AD6E36EF8CB11 /* Pods-BMToast-frameworks.sh */,
+				AE3914192F6F5AAD687F1C03EB381201 /* Pods-BMToast-Info.plist */,
+				6650A914B26E42923758B71787070D3F /* Pods-BMToast-umbrella.h */,
+				BD0E2E01BBB622388E36F2BCC56BD7BF /* Pods-BMToast.debug.xcconfig */,
+				AA2B490BAF78EBCAF98D7C293073FF16 /* Pods-BMToast.release.xcconfig */,
 			);
 			name = "Pods-BMToast";
 			path = "Target Support Files/Pods-BMToast";
 			sourceTree = "<group>";
 		};
-		5DCF2570E622C3BB30CDBCC0F4AE8BCA /* Support Files */ = {
+		998D5156E34E11089A54AE60CE997D77 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8C2FAE65152F386BA34D9B98239234C2 /* BMToast.modulemap */,
-				DB94C8F5E8B478B37AE49D871213A0B0 /* BMToast.xcconfig */,
-				2506180868AADC853261F624458262AB /* BMToast-dummy.m */,
-				0334C484EE79318A2F93A3A8F77709AD /* BMToast-prefix.pch */,
-				4B2A58A40ED413C7DFA163524AA5EA65 /* BMToast-umbrella.h */,
-				FF76DEF7453D239370A1CB62BD976DF4 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "BMToastDemo/Pods/Target Support Files/BMToast";
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F187AD3CC386669304E2D865D95B702B /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9618E9CBFFD9B7F2462ABE5DB8D37C62 /* Products */,
-				A90A2DF15A1E6FD73A0AD5762272DC20 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		9618E9CBFFD9B7F2462ABE5DB8D37C62 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				875DC45EB897B588BA36BBB4DCB6D9EB /* BMToast.framework */,
-				371E9065C3DBBC236C6C4B8BE8F759A4 /* Pods_BMToast.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A90A2DF15A1E6FD73A0AD5762272DC20 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				393EE0CDD0203C59F7359044E9B7399F /* Pods-BMToast */,
+				5754587E60F6F8FE9E46DA74DAABD9AE /* Pods-BMToast */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		AE7A38D9D68868C2FA8872FC1CEE03CB /* BMToast */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C58B9F75AAA62D4B2FF0688AFED4BBC1 /* BMToast */ = {
-			isa = PBXGroup;
-			children = (
-				B9B16928A6E4F66D00A5D6CA94E29F9A /* BMToast.h */,
-				D5E0B376CFF516600A3BC1DD762CBD29 /* BMToast.m */,
-				A68BDCDA12FB4C560F974D87A4150CCA /* BMToastConfig.h */,
-				7D3657C4994A7A17D847AB954221DBBF /* BMToastConfig.m */,
-				F30AB096315243E4DB2276134067C5D5 /* BMToastKit.h */,
-				B063A95FBBC92D2ABA65E72E4EBC2FE0 /* BMToastMaskView.h */,
-				A4115BE56E8B5D05F0898FD2ACFF2FD5 /* BMToastMaskView.m */,
-				022853EAD670563C76A8026562F5BDEB /* BMToastView.h */,
-				016A9DC2440E46358FC01844E66552E4 /* BMToastView.m */,
-				58A19E3334FF9A38E5BA59AB28450D97 /* BMViewToast.h */,
-				6FEA918446AC37E442714218D1B8D050 /* BMViewToast.m */,
-				D5448FB40E96EAEF8643018748F61697 /* BMWindowToast.h */,
-				3A7724899B8CC77E51DE67F2FCB9F805 /* BMWindowToast.m */,
-				0AA1D31DAF54F370752A933A49D66D17 /* NSBundle+BMToast.h */,
-				9E647FDE47F55DD3CD22316FF7CF577A /* NSBundle+BMToast.m */,
-				F9DB0D2A1DD950D7111B8CE6A51AECCA /* UIView+Add.h */,
-				D41383310EC003C413784F072FF3CB8D /* UIView+Add.m */,
-				86F6C9BF45EE34C4E573E9CE755B1D25 /* UIView+BMToast.h */,
-				EF490DA16469E0A6236352885E557654 /* UIView+BMToast.m */,
-				52FA709153BD143AFD6CC314FAAF5E05 /* UIViewController+Toast.h */,
-				BF67BA5828EABB856BDBD46C0DA42ECA /* UIViewController+Toast.m */,
-				FDE88836BD658FDBFC7DF5226BE492D8 /* Pod */,
-				CEE573E18DDECFC1D47DD5B7A7B82196 /* Resources */,
-				5DCF2570E622C3BB30CDBCC0F4AE8BCA /* Support Files */,
+				534BB246CAC5463DD4F3827D3E9723E5 /* BMToast.h */,
+				4B30B3DAA96B875739665E0576CC2A94 /* BMToast.m */,
+				C456303336DB88A45685D086175DEB40 /* BMToastConfig.h */,
+				5DCF7955743AB9311CC1E55B490124E8 /* BMToastConfig.m */,
+				4CDFAB4EDE3C5DB8DFC7D19DF13C556E /* BMToastKit.h */,
+				4DAA5014FB2F6E203A7C59B914156E52 /* BMToastMaskView.h */,
+				27F6946D32F47E1D02C3714A6609B346 /* BMToastMaskView.m */,
+				8866531E49BCFEF4232F0D00E895A751 /* BMToastView.h */,
+				61D47E1943629758498541F839288E83 /* BMToastView.m */,
+				267FC1FE5CCCF58A78D36F6CCDDBDD2D /* BMViewToast.h */,
+				1B1ED46C4509ADDAC11CF2F212864EA1 /* BMViewToast.m */,
+				A77AD48997C4E1564330B1D089479939 /* BMWindowToast.h */,
+				3902E1E3ED6BB7CA20534B4A5CDC26FB /* BMWindowToast.m */,
+				92433AC73587BC24235C9369A2F317B8 /* NSBundle+BMToast.h */,
+				86F47B7DDE8B6D43339B15D2225AAFD4 /* NSBundle+BMToast.m */,
+				2C0BD5220EE32139FB0688E3089FD4F6 /* UIView+Add.h */,
+				6FD0FB1561460AD2C1AFDB807991ED53 /* UIView+Add.m */,
+				89B8EB0CE104F0BCE4D6B4C1E9939239 /* UIView+BMToast.h */,
+				72E4561A2AC7D777CAD745422B29629A /* UIView+BMToast.m */,
+				CE21AC8F6A77B44BE731D9B478E42986 /* UIViewController+Toast.h */,
+				60A00005F57C74899D40EDAB9B6799D4 /* UIViewController+Toast.m */,
+				E3CF8BD2A20B7435644198551E8E8A2A /* Pod */,
+				F725C04FCCF958671D96CAEE694F90B5 /* Resources */,
+				E53CC96177D3CF3A3A3038C2C0ECEC1E /* Support Files */,
 			);
 			name = BMToast;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		CEE573E18DDECFC1D47DD5B7A7B82196 /* Resources */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				084F1C1444A38CCB467734B2BFBC7CD1 /* BMToast.bundle */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FF576523CA46947989A777BD1912CC37 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				03C0EEA27B774F93E60FB86BB07CCD65 /* Products */,
+				998D5156E34E11089A54AE60CE997D77 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3CF8BD2A20B7435644198551E8E8A2A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DA9015BF18638C9FF4EC998B8417EB39 /* BMToast.podspec */,
+				23EFF25975809A89A21E0064665E9200 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E53CC96177D3CF3A3A3038C2C0ECEC1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CC8ADC77EE547DF0182172E21CA7DE4 /* BMToast.modulemap */,
+				C93725BF1B69F3B6A87FB329B6BC4445 /* BMToast.xcconfig */,
+				9FD7156F2A559C180994FE2D30977263 /* BMToast-dummy.m */,
+				FFA191EB95BDCFF90857190BCB0A1C2A /* BMToast-Info.plist */,
+				E046B1F94C154D4F1CB062BE472BE78B /* BMToast-prefix.pch */,
+				0C04DAFA6410562B047BB44CA9DE1428 /* BMToast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "BMToastDemo/Pods/Target Support Files/BMToast";
+			sourceTree = "<group>";
+		};
+		F725C04FCCF958671D96CAEE694F90B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7FA6EBB2FCDE5319A7CA127126FBC57C /* BMToast.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		F187AD3CC386669304E2D865D95B702B /* Development Pods */ = {
+		FF576523CA46947989A777BD1912CC37 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C58B9F75AAA62D4B2FF0688AFED4BBC1 /* BMToast */,
+				AE7A38D9D68868C2FA8872FC1CEE03CB /* BMToast */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FDE88836BD658FDBFC7DF5226BE492D8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8BA96720D9D9422C9937E08908B12B48 /* BMToast.podspec */,
-				35D778724D4324967A8B1EF91C7F144A /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3F64382411CCA75B15EC7EEBA34AE92D /* Headers */ = {
+		7495E882A772762311C05CEF9651C91D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2073CA1835A6F8C75BC6DB149005773 /* BMToast-umbrella.h in Headers */,
-				7B89354AB0C789859DC628FDA91F83DE /* BMToast.h in Headers */,
-				EC8E3B8E48F64749EEF0FBA973397877 /* BMToastConfig.h in Headers */,
-				C5BDCCDB9B90D2464B709F63E02E2E9C /* BMToastKit.h in Headers */,
-				C068A9B317EF30AD8A93D4BB4949CF27 /* BMToastMaskView.h in Headers */,
-				2C3C4408B35EAFF73122A5E7D6D31C8E /* BMToastView.h in Headers */,
-				C1265EFBFA388C9B7C7F8436B6DA6BDF /* BMViewToast.h in Headers */,
-				0F070C45790B01A79898ECA17053BD81 /* BMWindowToast.h in Headers */,
-				381E547261EBA69975DE4CAC2A9843AC /* NSBundle+BMToast.h in Headers */,
-				C87E59B37626728600FC9BF430BE2E54 /* UIView+Add.h in Headers */,
-				F0D22DAAC7D2B7FC1BC4224879A7E813 /* UIView+BMToast.h in Headers */,
-				DC4707F6D50C5B592C81E06A903A16F3 /* UIViewController+Toast.h in Headers */,
+				EED08D40D71F985E9A50FA48A835C3B9 /* Pods-BMToast-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6BCE5E89BE9CA2CCC018460452C914E /* Headers */ = {
+		CEDDE56CD7C716EBA55C042BCA9D233D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23604E8F768CF8368FFBB03B4A55A9C1 /* Pods-BMToast-umbrella.h in Headers */,
+				9397A3B846F7990F6494830AE1BEA1B2 /* BMToast-umbrella.h in Headers */,
+				337CD753953F5AC7ECD87A8A2EC463D9 /* BMToast.h in Headers */,
+				230734849DC11858BC9ECD3A77659846 /* BMToastConfig.h in Headers */,
+				0F48F8F62603AC15DBCA6EBE1317E205 /* BMToastKit.h in Headers */,
+				9786E8DA94077E08375B2080896A5439 /* BMToastMaskView.h in Headers */,
+				7CEAE6D863CDEE1F899295CA01FC8557 /* BMToastView.h in Headers */,
+				8FAD49870371A24EB7F7E354C7C0ACFB /* BMViewToast.h in Headers */,
+				81FB5A22383F1D06333624738DC15966 /* BMWindowToast.h in Headers */,
+				EA69F5D43BFDDAB6BD2DA10B9887AD49 /* NSBundle+BMToast.h in Headers */,
+				2C8FF036AC090872F2BD212A87C4CE36 /* UIView+Add.h in Headers */,
+				0573502AA430A2260CEAF11DC55E1BBF /* UIView+BMToast.h in Headers */,
+				3931ACBDA3E0EC3BD4A1276ED823C130 /* UIViewController+Toast.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		177AD65EEC35AF1350B5F1393F73FD6D /* BMToast */ = {
+		4843C0A3ADD2B78360D80B0903F6D22F /* BMToast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F936FD2E8755D9FDB58995E8473D7442 /* Build configuration list for PBXNativeTarget "BMToast" */;
+			buildConfigurationList = 735811126AC53A7B15216DECA17B86C7 /* Build configuration list for PBXNativeTarget "BMToast" */;
 			buildPhases = (
-				8BE71E96F780CBD49AAA682C265D2FC2 /* Sources */,
-				53AA62083FF14C37E7EEF72D28F65F79 /* Frameworks */,
-				3F64382411CCA75B15EC7EEBA34AE92D /* Headers */,
-				A0410406C1F75DE1EFB7E7EB9B7792FC /* Resources */,
+				CEDDE56CD7C716EBA55C042BCA9D233D /* Headers */,
+				C5C254372BFDF2F734DDD7BB5FCB1E6D /* Sources */,
+				55FF9C7E009706ECCC55C1AA051D5306 /* Frameworks */,
+				E68CAC936475995FDB280EA92B44DC0F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -295,105 +293,147 @@
 			);
 			name = BMToast;
 			productName = BMToast;
-			productReference = 875DC45EB897B588BA36BBB4DCB6D9EB /* BMToast.framework */;
+			productReference = 24892937E2D796F932FB71AD20ED682F /* BMToast.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		511A9E68787F2BC1CFE7298A8FDAA202 /* Pods-BMToast */ = {
+		98C4D130279DEA4E57061DAB73E65256 /* Pods-BMToast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6807E3343B99C0332F773E2683E7EC42 /* Build configuration list for PBXNativeTarget "Pods-BMToast" */;
+			buildConfigurationList = 5D628A6D9850B769977F870F7985F3EE /* Build configuration list for PBXNativeTarget "Pods-BMToast" */;
 			buildPhases = (
-				905F3CA291E86F1DC3421B7D3092A487 /* Sources */,
-				46A04357B3753546B11EA88672F58B4C /* Frameworks */,
-				C6BCE5E89BE9CA2CCC018460452C914E /* Headers */,
+				7495E882A772762311C05CEF9651C91D /* Headers */,
+				038074F62C07B8DF7A6B4E416428F781 /* Sources */,
+				AB1119D0B139D785142365334B90BF35 /* Frameworks */,
+				7EEE3DF3E88DBABE1EA134C69ADE155F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2BEB656B6248597437159E4EBF1C724A /* PBXTargetDependency */,
+				A65D114BC3949B3E81C03BDFFDFA8D1A /* PBXTargetDependency */,
 			);
 			name = "Pods-BMToast";
 			productName = "Pods-BMToast";
-			productReference = 371E9065C3DBBC236C6C4B8BE8F759A4 /* Pods_BMToast.framework */;
+			productReference = F36E738EF6D7AF3B42DCD2F1403DD355 /* Pods_BMToast.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9618E9CBFFD9B7F2462ABE5DB8D37C62 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 03C0EEA27B774F93E60FB86BB07CCD65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				177AD65EEC35AF1350B5F1393F73FD6D /* BMToast */,
-				511A9E68787F2BC1CFE7298A8FDAA202 /* Pods-BMToast */,
+				4843C0A3ADD2B78360D80B0903F6D22F /* BMToast */,
+				98C4D130279DEA4E57061DAB73E65256 /* Pods-BMToast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A0410406C1F75DE1EFB7E7EB9B7792FC /* Resources */ = {
+		7EEE3DF3E88DBABE1EA134C69ADE155F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C244CBD4A21141B0ED9C8C785105D1E /* BMToast.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68CAC936475995FDB280EA92B44DC0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD992140B7F7868CF290FDD377FF2AE7 /* BMToast.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8BE71E96F780CBD49AAA682C265D2FC2 /* Sources */ = {
+		038074F62C07B8DF7A6B4E416428F781 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C8E0154993726A62011DA9F87B2267 /* BMToast-dummy.m in Sources */,
-				7C9C64BBEB5816A7D0F92398905CCF9D /* BMToast.m in Sources */,
-				327A7035527640648885B3D743EE86A7 /* BMToastConfig.m in Sources */,
-				85DB1831CAECB724C4EF95F8D4D0AF6E /* BMToastMaskView.m in Sources */,
-				BD8DFC86C129E7D85915CF960C854A00 /* BMToastView.m in Sources */,
-				6618CBEFA904C71D6E79F81A488C9C4A /* BMViewToast.m in Sources */,
-				2EC69BA415B80E11AA51100D3A0F2B09 /* BMWindowToast.m in Sources */,
-				2C70AC0EAEA61381AFB2390E046EDF2C /* NSBundle+BMToast.m in Sources */,
-				7A9612C94754231D5A8C5C266B4831B3 /* UIView+Add.m in Sources */,
-				97F3E7FDF38282EF4BF45E4445B24B63 /* UIView+BMToast.m in Sources */,
-				B83690C2C0D1862E4BF786FF3EDF1E12 /* UIViewController+Toast.m in Sources */,
+				42E82128A04D7DE24C0DACB5628F1E16 /* Pods-BMToast-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		905F3CA291E86F1DC3421B7D3092A487 /* Sources */ = {
+		C5C254372BFDF2F734DDD7BB5FCB1E6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40752A521306E2C51225650FD1646A29 /* Pods-BMToast-dummy.m in Sources */,
+				C2643799289D455C39371EEE4C51716F /* BMToast-dummy.m in Sources */,
+				F57DC3047E94F017C5C390551E3ABBB4 /* BMToast.m in Sources */,
+				8C29D9EE15662233D2090A69CE1C8492 /* BMToastConfig.m in Sources */,
+				E380FF20229E892DE1526007DF32A4F2 /* BMToastMaskView.m in Sources */,
+				98FA217025804FCE8812CBD4FC9050E9 /* BMToastView.m in Sources */,
+				98B1F3E18F8D3431CA545BE01AA208B3 /* BMViewToast.m in Sources */,
+				93FE928F09558BB22E3D914A4983238A /* BMWindowToast.m in Sources */,
+				F10A2F7F8ED06B69477C08FDFAD8D7D1 /* NSBundle+BMToast.m in Sources */,
+				F483BE6B7CBA903A0935BB66C0F7144B /* UIView+Add.m in Sources */,
+				5F4EB5A6991C4AA6D058C0130410AD6F /* UIView+BMToast.m in Sources */,
+				3F8D906F29124FA404F72B35EA3BBD8D /* UIViewController+Toast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2BEB656B6248597437159E4EBF1C724A /* PBXTargetDependency */ = {
+		A65D114BC3949B3E81C03BDFFDFA8D1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BMToast;
-			target = 177AD65EEC35AF1350B5F1393F73FD6D /* BMToast */;
-			targetProxy = F69A2F1CB2171D12BA96BC809E229F84 /* PBXContainerItemProxy */;
+			target = 4843C0A3ADD2B78360D80B0903F6D22F /* BMToast */;
+			targetProxy = 0C8A36161A03005B9943A034C726834E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+		00B4A1FE5C8C6EBF931319DEBD1C63F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93725BF1B69F3B6A87FB329B6BC4445 /* BMToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BMToast/BMToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BMToast/BMToast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BMToast/BMToast.modulemap";
+				PRODUCT_MODULE_NAME = BMToast;
+				PRODUCT_NAME = BMToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -425,8 +465,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -447,18 +485,56 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		4DC31AD9CA045593739D17CE51BF771F /* Release */ = {
+		398810938F7A2D9B034DA55095881668 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FFB8A4DFCD3F62ACF06316C315DD79F /* Pods-BMToast.release.xcconfig */;
+			baseConfigurationReference = C93725BF1B69F3B6A87FB329B6BC4445 /* BMToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BMToast/BMToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BMToast/BMToast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BMToast/BMToast.modulemap";
+				PRODUCT_MODULE_NAME = BMToast;
+				PRODUCT_NAME = BMToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A2F2E9786E76B0571AD303D2496CFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0E2E01BBB622388E36F2BCC56BD7BF /* Pods-BMToast.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -471,7 +547,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BMToast/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BMToast/Pods-BMToast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BMToast/Pods-BMToast.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C728E7364244B8BCBD8C73132858057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2B490BAF78EBCAF98D7C293073FF16 /* Pods-BMToast.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BMToast/Pods-BMToast-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -495,79 +609,7 @@
 			};
 			name = Release;
 		};
-		5BF433B9C5D854F5BA67709674D228ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB94C8F5E8B478B37AE49D871213A0B0 /* BMToast.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BMToast/BMToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BMToast/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/BMToast/BMToast.modulemap";
-				PRODUCT_MODULE_NAME = BMToast;
-				PRODUCT_NAME = BMToast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B5B43518644221E8C31463A0D2C7B8D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14B4B68EA5B5122E2DF5335A39D7F353 /* Pods-BMToast.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BMToast/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BMToast/Pods-BMToast.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -599,8 +641,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -619,78 +659,47 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		EF462A713ED49A817C19230AA9C16678 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB94C8F5E8B478B37AE49D871213A0B0 /* BMToast.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BMToast/BMToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BMToast/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/BMToast/BMToast.modulemap";
-				PRODUCT_MODULE_NAME = BMToast;
-				PRODUCT_NAME = BMToast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
-				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6807E3343B99C0332F773E2683E7EC42 /* Build configuration list for PBXNativeTarget "Pods-BMToast" */ = {
+		5D628A6D9850B769977F870F7985F3EE /* Build configuration list for PBXNativeTarget "Pods-BMToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5B43518644221E8C31463A0D2C7B8D3 /* Debug */,
-				4DC31AD9CA045593739D17CE51BF771F /* Release */,
+				9A2F2E9786E76B0571AD303D2496CFD5 /* Debug */,
+				9C728E7364244B8BCBD8C73132858057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F936FD2E8755D9FDB58995E8473D7442 /* Build configuration list for PBXNativeTarget "BMToast" */ = {
+		735811126AC53A7B15216DECA17B86C7 /* Build configuration list for PBXNativeTarget "BMToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BF433B9C5D854F5BA67709674D228ED /* Debug */,
-				EF462A713ED49A817C19230AA9C16678 /* Release */,
+				00B4A1FE5C8C6EBF931319DEBD1C63F1 /* Debug */,
+				398810938F7A2D9B034DA55095881668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

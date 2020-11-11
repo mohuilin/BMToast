@@ -43,10 +43,12 @@
     self.messageLabel.font = [UIFont systemFontOfSize:14];
     self.messageLabel.textColor = UIColor.whiteColor;
     self.messageLabel.textAlignment = NSTextAlignmentCenter;
+    self.messageLabel.lineBreakMode = NSLineBreakByTruncatingMiddle;
     self.messageLabel.left = 5;
-    self.messageLabel.height = 20;
+    self.messageLabel.height = 35;
+    self.messageLabel.numberOfLines = 2;
     self.messageLabel.width = self.width - 10;
-    self.messageLabel.bottom = self.height - 18;
+    self.messageLabel.bottom = self.height - 10;
     [self addSubview:self.messageLabel];
     
     switch (self.toastType) {
