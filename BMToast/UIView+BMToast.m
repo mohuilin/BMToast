@@ -18,6 +18,10 @@
     [BMViewToast bm_showWithAutoDismiss:YES toView:self toastType:BMToastTypeLoading dismissDuration:15 message:message positionPoint:CGPointZero customImage:nil];
 }
 
+- (void)bm_showLoadingToastWithMessage:(NSString *)message duration:(CGFloat)duration {
+     [BMViewToast bm_showWithAutoDismiss:YES toView:self toastType:BMToastTypeLoading dismissDuration:duration message:message positionPoint:CGPointZero customImage:nil];
+}
+
 /** 操作成功 */
 - (void)bm_showSuccessToast {
     [self bm_showSuccessToastWithMessage:nil];

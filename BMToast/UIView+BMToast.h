@@ -14,6 +14,7 @@
 /** 加载提示弹框 */
 - (void)bm_showLoadingToast;
 - (void)bm_showLoadingToastWithMessage:(NSString *)message;
+- (void)bm_showLoadingToastWithMessage:(NSString *)message duration:(CGFloat)duration;
 
 /** 操作成功 */
 - (void)bm_showSuccessToast;
